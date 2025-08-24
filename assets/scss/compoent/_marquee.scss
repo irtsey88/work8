@@ -1,0 +1,34 @@
+.marquee{
+width: 100%; //高度由圖片控制
+}
+
+.marquee__inner{
+animation-name: marquee;
+animation-duration:10s;
+animation-iteration-count:infinite;
+animation-direction: normal ;
+animation-timing-function:linear;
+
+}
+
+.marquee-img {
+  display: inline-block;
+  height: 38px;
+  object-fit: contain; 
+  width: auto;
+}
+
+@media (min-width: 992px) {
+  .marquee-img {
+    height: 156px;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

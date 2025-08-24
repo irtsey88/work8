@@ -1,0 +1,40 @@
+.person-banner{
+ padding-top: 116px;
+}
+
+.person-user{
+ width: 120px;
+ height: 120px;
+ border:2px solid $primary;
+}
+
+.person-mail{
+ padding-top: 68px;
+}
+
+.user-40px{
+ width: 40px;
+ height: 40px;
+}
+
+
+
+
+@media (min-width: 992px){
+
+.person-banner{
+ padding-top: 196px;
+
+.person-user{
+ width: 160px;
+ height: 160px;
+ border:4px solid $primary;
+ 
+}
+}
+
+.person-mail{
+ padding-top: 88px;
+}
+
+}

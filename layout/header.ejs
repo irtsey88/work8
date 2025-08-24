@@ -1,0 +1,97 @@
+<nav class="navbar py-4 py-lg-5 fixed-top scroll-animated-text">
+  <div class="container position-relative"> 
+   <div class="d-flex align-items-center me-auto">
+    <a class="navbar-brand p-0 me-7" href="../pages/index.html"><img src="../assets/images/title-top.jpg" class="logo-img" alt="logo"></a>
+    <form class="position-relative d-none d-lg-block">
+    <span class="material-symbols-outlined align-bottom position-absolute top-50 start-0 translate-middle-y ps-4 text-neutral-60">search</span>
+    <input type="search" class="form-control rounded-2 py-2 ps-11 navbar-lg-search" id="navbar-lg-search" placeholder="搜尋景點、地點或城市">
+    </form>
+   </div>
+
+    <div class="position-absolute z-1 start-0 end-0 px-4 bg-white"><!--設定滿版的寬度，左右都是0,用z-1推到最上方讓後面不顯示-->
+    <!--放大鏡+搜尋框-->
+    <div class="collapse" id="collapseExample">
+    <div class="d-flex align-items-center">  <!--這一層可以讓X跟前面的框框一起對齊-->
+    <form class="position-relative w-100">
+    <span class="material-symbols-outlined align-bottom position-absolute top-50 start-0 translate-middle-y ps-4 text-neutral-60">search</span>
+    <input type="search" class="form-control rounded-2 py-2 ps-11" id="exampleFormControlInput1" placeholder="搜尋景點、地點或城市">
+    </form>
+    <button type="button" class="btn p-2 border-0" data-bs-toggle="collapse" data-bs-target="#collapseExample"><span class="material-symbols-outlined">close</span></button>
+    </div>
+    </div>
+    </div>
+    
+    <button type="button" class="btn p-2 border-0 d-lg-none" data-bs-toggle="collapse" data-bs-target="#collapseExample">
+    <span class="material-symbols-outlined align-bottom">search</span>
+    </button>
+
+    <!--購物車樣式-->
+    <a href="#" class="btn p-2 border-0 py-2 px-4">
+    <span class="position-relative">
+    <span class="position-absolute top-0 start-100 translate-middle badge rounded-circle p-0 bg-alert cart-tag">2</span>
+    <span class="material-symbols-outlined align-bottom">shopping_cart</span>
+    </span>
+    </a>
+
+<div id="authArea" class="ms-5 d-none d-lg-block">
+
+  <!-- 登入按鈕 (預設顯示) -->
+  <div class="collapse show" id="loginBtn" data-bs-parent="#authArea">
+    <a class="fs-5 fw-bold btn btn-primary py-2 px-4 border-radius12"
+       data-bs-toggle="collapse" 
+       href="#userAvatar" 
+       role="button" 
+       aria-expanded="false" 
+       aria-controls="userAvatar">
+      登入 / 註冊
+    </a>
+  </div>
+
+  <!-- 頭像 (預設隱藏) -->
+  <div class="collapse" id="userAvatar" data-bs-parent="#authArea">
+    <a class="fw-bold text-primary fs-5" href="#"><img class="pe-2" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/user/avatar-1.png?raw=true" 
+         alt="user avatar" 
+         class="rounded-circle" 
+         style="width:32px; height:32px;">Jessica</a>
+  </div>
+
+</div>
+
+
+    <!--右邊三條線-->
+    <button class="btn border-0 p-2 d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
+    <!--三條線打開的內容-->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link d-flex align-items-center" href="#">
+           <img width="32" height="32" class="rounded-circle me-2" 
+           src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/user/avatar-1.png?raw=true" 
+           alt="avatar-1">
+
+            <!-- 文字區塊 -->
+            <div>
+           <div class="fw-bold text-dark">Jessica</div>
+           <div class="text-neutral-80 small">jessica.yen@gamil.com</div>
+           </div>
+           </a>
+         <li class="nav-item py-4">
+            <a class="nav-link py-0" href="#"><span class="material-symbols-outlined align-bottom pe-2">article</span>訂單管理</a>
+          </li>
+          <li class="nav-item py-4">
+            <a class="nav-link py-0" href="#"><span class="material-symbols-outlined align-bottom pe-2">favorite</span>我的收藏</a>
+          </li>
+          <li class="nav-item py-4">
+            <a class="nav-link py-0" href="#"><span class="material-symbols-outlined align-bottom pe-2">settings</span>賬號設定</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>

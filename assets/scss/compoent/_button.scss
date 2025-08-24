@@ -1,0 +1,12 @@
+/* 預設樣式 */
+.btn-outline-dark {
+  background-color: $white ;   
+  color: $primary;   
+          
+}
+
+/* 選中狀態 */
+.btn-check:checked + .btn-outline-dark {
+  background-color: $primary; 
+  color:$white;                      
+}

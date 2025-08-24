@@ -1,0 +1,36 @@
+/* 標籤的基本樣式 */
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+a{
+  text-decoration: none;
+}
+
+.gray-808080{
+color:#808080;
+
+}
+
+.border-radius12{
+  border-radius: 12px;
+}
+
+.fs-24px{
+    font-size: 24px;
+}
+
+.py-215{
+   padding-top: 21.5px; 
+   padding-bottom: 21.5px;
+}
+
+
+@media (min-width: 992px){
+
+.fs-lg-24px{
+    font-size: 24px;
+}
+}

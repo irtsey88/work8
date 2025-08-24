@@ -1,0 +1,40 @@
+html {
+  scroll-timeline-name: --scroll;
+  scroll-timeline-axis: block;
+}
+
+.scroll-animated-text {
+  background-color: rgba(255, 255, 255, 0);
+  animation: fade-navbar-bg linear forwards;
+  animation-timeline: --scroll;
+  animation-range: 0px 200px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+@keyframes fade-navbar-bg {
+  from {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: none;
+  }
+  to {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+}
+
+
+.logo-img{
+  width: 180px;
+  height: auto;
+
+}
+
+.cart-tag{
+  width: 16px;
+  height: 16px;
+  line-height: 1.333;//本身帶有padding先使用p-0清除後再加上行高可以置中
+}
+
+.navbar-lg-search{
+  width: 400px;
+}

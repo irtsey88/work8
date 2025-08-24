@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>首頁</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+     <main>
+      <section class="banner">
+        <div class="container">
+          <div class="row justify-content-center">
+          <div class="col-lg-10">
+          <h2 class="fs-5 fw-bold text-primary p-2 bg-primary-10 rounded-2 d-inline-block mb-4">ZOBAA 旅行推薦平台</h2>
+          <h1 class="text-primary fs-2 fw-bold"><span class="d-block d-lg-inline mb-1 mb-lg-7 ">用旅行，</span><span class="d-block d-lg-inline mb-2 mb-lg-7">收藏世界的樣子</span></h1>
+          <p class="text-primary-80 fw-bold fs-6 fs-lg-4 mb-7 mb-lg-11">ZOBAA 整合熱門景點推薦、即時優惠、獨家行程，從比價到訂購，一次完成你的完美出遊計畫。</p>
+
+      <!-- 中間的搜尋欄 -->
+       <form class="d-flex align-items-center bg-white rounded-3 border border-neutral-40 w-100 p-2" style="max-width:720px;">
+       <span class="material-symbols-outlined text-neutral-60 me-2 p-1">search</span>
+       <input type="search"  class="form-control border-0 shadow-none flex-grow-1 py-6 px-0 fs-6 text-neutral-60" id="navbar-search" placeholder="搜尋景點、地點或城市">
+       <button type="button" class="btn bg-primary text-white fw-bold px-5 py-4 border-radius12 fw-semibold text-nowrap">開始探索旅程</button>
+       </form>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="recommend py-11">
+        <div class="container text-white d-lg-flex justify-content-lg-between align-items-center mb-11">
+          <h3 class="mb-7">你的<br />專屬推薦</h3>
+          <div>
+          <p class="mb-4">來看我們的精選推薦行程，滿意度高達 99.2%<br />給自己一個難忘的旅遊行程吧！</p>
+          <a href="#" class="text-white">查看全部行程<span class="material-symbols-outlined ps-2 align-bottom">arrow_forward</span></a>
+        </div>
+        </div>
+        
+      <div class="container d-flex gap-5 overflow-x-auto">
+        <div class="card text-bg-dark rounded-5 overflow-hidden flex-shrink-0 flex-lg-shrink-1">
+        <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/recommend.png?raw=true" class="card-img h-100" alt="recommend">
+        <div class="card-img-overlay d-flex flex-column justify-content-end">
+        <h4 class="mb-2">峇里島渡假漫遊</h4>
+        <p class="mb-7">精選五星級海灘度假村，專屬私人管家服務，讓您徹底放鬆身心。</p>
+        <button type="button" class="btn btn-light p-6 rounded-pill fs-5 d-flex justify-content-between fw-bold">訂購行程<span class="material-symbols-outlined align-bottom">arrow_forward</span></button>
+        </div>
+      </div>
+
+       <div class="card text-bg-dark rounded-5 overflow-hidden flex-shrink-0 flex-lg-shrink-1">
+        <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/recommend-1.png?raw=true" class="card-img h-100" alt="recommend-1">
+        <div class="card-img-overlay d-flex flex-column justify-content-end">
+        <h4 class="mb-2">日本深度賞櫻計畫</h4>
+        <p class="mb-7">春季限定，東京、京都、大阪賞櫻之旅，體驗日本文化的精髓。</p>
+        <button type="button" class="btn btn-light p-6 rounded-pill fs-5 d-flex justify-content-between fw-bold">訂購行程<span class="material-symbols-outlined align-bottom">arrow_forward</span></button>
+        </div>
+      </div>
+
+      <div class="card text-bg-dark rounded-5 overflow-hidden flex-shrink-0 flex-lg-shrink-1">
+       <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/recommend-2.png?raw=true" class="card-img h-100" alt="recommend-2">
+       <div class="card-img-overlay d-flex flex-column justify-content-end">
+       <h4 class="mb-2">紐西蘭雪山探險</h4>
+       <p class="mb-7">探索南島壯麗的自然風光，體驗各種極限運動和戶外活動。</p>
+       <button type="button" class="btn btn-light p-6 rounded-pill fs-5 d-flex justify-content-between fw-bold">訂購行程<span class="material-symbols-outlined align-bottom">arrow_forward</span></button>
+       </div>
+      </div>
+
+      <div class="card text-bg-dark rounded-5 overflow-hidden flex-shrink-0 flex-lg-shrink-1">
+      <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/recommend-3.png?raw=true" class="card-img h-100" alt="recommend-3">
+      <div class="card-img-overlay d-flex flex-column justify-content-end">
+      <h4 class="mb-2">摩洛哥迷幻之旅</h4>
+      <p class="mb-7">漫步沙漠與古城之間，探索千年文化與色彩繽紛的市集風情。</p>
+      <button type="button" class="btn btn-light p-6 rounded-pill fs-5 d-flex justify-content-between fw-bold">訂購行程<span class="material-symbols-outlined align-bottom">arrow_forward</span></button>
+      </div>
+     </div>
+     </div>
+      </section>
+      
+      <section class="first-bg bg-white">
+        <div class="container mb-2 py-13">
+        <div class="row flex-lg-row-reverse justify-content-between align-items-lg-center">
+          
+          <div class="col-12 col-lg-4 mb-11 d-flex justify-content-lg-end"><!--在手機版的時候是滿版-->
+            <div>
+            <h3 class="text-primary fs-2 d-lg-none fw-bold mb-7">ZOBAA!<br />踏上旅程的<br />第一站</h3><!--手機版-->
+            <h3 class="text-primary display-2 fw-bold mb-7 d-none d-lg-block">ZOBAA!<br />踏上旅程的<br />第一站</h3><!--電腦版-->
+            <p class="text-primary-60 fw-bold fs-6 fs-lg-4">
+              探索最熱門的旅遊主題，<br />
+              從旅人必備攻略到獨家優惠，<br />
+              全都為你精挑細選。
+            </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="card mb-6 rounded-5 overflow-hidden">
+                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/intro-1.png?raw=true" class="card-img-top" alt="intro-1">
+                <div class="card-body py-7">
+                <h4 class="fs-4 text-black fw-bold">ZOBAA 專屬推薦行程</h4>
+                <p class="text-neutral-80 fs-5 mb-0">嚴選深度行程，豐富旅行靈感</p>
+                </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-6">
+                <div class="card mb-6 rounded-5 overflow-hidden">
+                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/intro-2.png?raw=true" class="card-img-top" alt="intro-2">
+                <div class="card-body py-7">
+                <h4 class="fs-4 text-black fw-bold">旅人攻略集合</h4>
+                <p class="text-neutral-80 fs-5 mb-0">景點、交通、私房景點一次掌握</p>
+                </div>
+                </div>
+              </div>
+              </div>
+
+              <div class="row offset-row">
+              <div class="col-12 col-lg-6">
+                <div class="card mb-6 rounded-5 overflow-hidden">
+                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/intro-3.png?raw=true" class="card-img-top" alt="intro-3">
+                <div class="card-body py-7">
+                <h4 class="fs-4 text-black fw-bold">優惠機票、酒店</h4>
+                <p class="text-neutral-80 fs-5 mb-0">即時比價，聰明出發不踩雷</p>
+                </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-6">
+                <div class="card mb-6 rounded-5 overflow-hidden">
+                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/intro-4.png?raw=true" class="card-img-top" alt="intro-4">
+                <div class="card-body py-7">
+                <h4 class="fs-4 text-black fw-bold">銀行專屬優惠</h4>
+                <p class="text-neutral-80 fs-5 mb-0">使用指定卡別享受獨家旅遊好康</p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <section class="diagonal-section-top">
+      </section>
+
+      <section class="bg-primary-10">
+        <div class="container">
+        <div class="d-lg-flex justify-content-lg-between align-items-center mb-11 mb-lg-12">
+        <div><!--文字與按鈕電腦版-->
+
+        <div class="text-primary mb-7">
+        <!--手機版-->
+        <div class="d-block d-lg-none">
+        <h3 class="mb-2 fs-2 fw-bold">今年旅行的</h3>
+        <h3 class="fs-2 fw-bold">靈感地圖</h3>
+        </div>
+        <!--電腦版-->
+        <div class="d-none d-lg-block mb-7">
+        <h3 class="mb-2 display-2 fw-bold">今年旅行的</h3>
+        <h3 class="mb-0 display-2 fw-bold">靈感地圖</h3>
+        </div>
+
+        </div>
+
+         <div class="overflow-x-auto">
+         <div class="btn-group mb-7 mb-lg-0" role="group">
+         <!-- 全部 (預設選中) -->
+         <input type="radio" class="btn-check" name="region" id="all" autocomplete="off" checked>
+         <label class="btn btn-outline-dark py-2 px-5 fw-bold rounded-2 me-2 border-0 overflow-hidden flex-shrink-0 flex-lg-shrink-1" for="all">全部</label>
+
+         <!-- 亞洲 -->
+         <input type="radio" class="btn-check" name="region" id="asia" autocomplete="off">
+         <label class="btn btn-outline-dark py-2 px-5 fw-bold rounded-2 me-2 border-0 overflow-hidden flex-shrink-0 flex-lg-shrink-1" for="asia">亞洲</label>
+
+         <!-- 歐洲 -->
+         <input type="radio" class="btn-check" name="region" id="europe" autocomplete="off">
+         <label class="btn btn-outline-dark py-2 px-5 fw-bold rounded-2 me-2 border-0 overflow-hidden flex-shrink-0 flex-lg-shrink-1" for="europe">歐洲</label>
+
+         <!-- 美洲 -->
+         <input type="radio" class="btn-check" name="region" id="america" autocomplete="off">
+         <label class="btn btn-outline-dark py-2 px-5 fw-bold rounded-2 me-2 border-0 overflow-hidden flex-shrink-0 flex-lg-shrink-1" for="america">美洲</label>
+
+         <!-- 大洋洲 -->
+         <input type="radio" class="btn-check" name="region" id="oceania" autocomplete="off">
+         <label class="btn btn-outline-dark py-2 px-5 fw-bold rounded-2 me-2 border-0 overflow-hidden flex-shrink-0 flex-lg-shrink-1" for="oceania">大洋洲</label>
+
+         <!-- 非洲 -->
+         <input type="radio" class="btn-check" name="region" id="africa" autocomplete="off">
+         <label class="btn btn-outline-dark py-2 px-5 fw-bold rounded-2 border-0 overflow-hidden flex-shrink-0 flex-lg-shrink-1" for="africa">非洲</label>
+         </div>
+         </div>
+         </div>
+
+
+          <div class="text-lg-end">
+          <p class="mb-0 mb-lg-2 text-primary fw-bold fs-6 fs-lg-4">來自旅人搜尋、收藏與討論最多的目的地排行榜，</p>
+          <p class="mb-0 text-primary fw-bold fs-6 fs-lg-4">一場風格與故事感兼具的靈感旅行，就從這裡開始。</p>
+          </div>
+        </div>
+
+        
+          <div class="map d-flex overflow-x-auto">
+
+            <div class="map-card bg-white p-5 rounded-5 overflow-hidden flex-shrink-0 me-5 d-lg-flex">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/map-1.png?raw=true" class="card-img-top mb-2 rounded-3 me-lg-9" alt="map-1">
+            <div class="card-body">
+            <span class="fs-5 fw-bold text-primary py-2 px-5 bg-primary-10 rounded-2 d-inline-block mb-2 me-2">亞洲</span>
+            <span class="fs-5 fw-bold text-primary py-2 px-5 bg-primary-10 rounded-2 d-inline-block mb-2">日本京都</span>
+            <h4 class="fs-2 fs-lg-1 fw-bold text-black mb-2">走進四季交織的文化時光</h4>
+            <p class="text-neutral-80 fs-6 fs-lg-5 mb-7 mb-lg-11">穿過紅葉與古寺的交錯，感受從櫻花盛開到秋楓染紅的日式浪漫。</p>
+            <div class="mb-24 d-flex flex-column flex-md-row align-items-start">
+            <h5 class="fs-5 fw-bold text-primary p-2 bg-primary-10 rounded-2 d-inline-block mb-2 text-nowrap my-lg-1 mx-lg-4">ZOBAA 建議</h5>
+            <p class="fs-6 fs-lg-5 text-primary">賞楓最佳時間是 11 月中旬，推薦清水寺和南禪寺一帶 🍁</p>
+            </div>
+            <button type="button" class="btn btn-dark w-100 p-5 rounded-pill fs-6 fs-lg-5 d-flex justify-content-between fw-bold">
+              <span>立即探索魅力古都</span>
+              <span class="material-symbols-outlined align-bottom rounded-circle bg-white text-black">arrow_forward</span>
+            </button>
+            </div>
+            </div>
+
+            <div class="map-card bg-white p-5 rounded-5 overflow-hidden flex-shrink-0 me-5 d-lg-flex">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/map-2.png?raw=true" class="card-img-top mb-2 rounded-3 me-lg-9" alt="map-2">
+            <div class="card-body">
+            <span class="fs-5 fw-bold text-primary py-2 px-5 bg-primary-10 rounded-2 d-inline-block mb-2 me-2">亞洲</span>
+            <span class="fs-5 fw-bold text-primary py-2 px-5 bg-primary-10 rounded-2 d-inline-block mb-2">南韓首爾</span>
+            <h4 class="fs-2 fs-lg-1 fw-bold text-black mb-2">從街邊美食到韓劇場景</h4>
+            <p class="text-neutral-80 fs-6 fs-lg-5 mb-7 mb-lg-11">白天在弘大小巷探店，夜晚登上南山塔俯瞰整座城市的閃爍。</p>
+            <div class="mb-24 d-flex flex-column flex-md-row align-items-start">
+            <h5 class="fs-5 fw-bold text-primary p-2 bg-primary-10 rounded-2 d-inline-block mb-2 text-nowrap my-lg-1 mx-lg-4">ZOBAA 建議</h5>
+            <p class="fs-6 fs-lg-5 text-primary">弘大周邊週五傍晚最熱鬧，小吃與街頭藝人齊發✨</p>
+            </div>
+            <button type="button" class="btn btn-dark w-100 p-5 rounded-pill fs-6 fs-lg-5 d-flex justify-content-between fw-bold">
+              <span>感受韓系風格日常</span>
+              <span class="material-symbols-outlined align-bottom rounded-circle bg-white text-black">arrow_forward</span>
+            </button>
+            </div>
+            </div>
+
+            <div class="map-card bg-white p-5 rounded-5 overflow-hidden flex-shrink-0 me-5 d-lg-flex">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/map-3.png?raw=true" class="card-img-top mb-2 rounded-3 me-lg-9" alt="map-3">
+            <div class="card-body">
+            <span class="fs-5 fw-bold text-primary py-2 px-5 bg-primary-10 rounded-2 d-inline-block mb-2 me-2">歐洲</span>
+            <span class="fs-5 fw-bold text-primary py-2 px-5 bg-primary-10 rounded-2 d-inline-block mb-2">法國巴黎</span>
+            <h4 class="fs-2 fs-lg-1 text-black mb-2">在藝術與咖啡香中迷路</h4>
+            <p class="text-neutral-80 fs-6 fs-lg-5 mb-lg-11">穿梭左岸書店與畫廊，任由麵包香與建築細節擁抱你的步伐。</p>
+            <div class="mb-24 d-flex flex-column flex-md-row align-items-start">
+            <h5 class="fs-5 fw-bold text-primary p-2 bg-primary-10 rounded-2 d-inline-block mb-2 text-nowrap my-lg-1 mx-lg-4">ZOBAA 建議</h5>
+            <p class="fs-6 fs-lg-5 text-primary">走進瑪黑區，最容易與巴黎風格不期而遇 ☕️</p>
+            </div>
+            <button type="button" class="btn btn-dark w-100 p-5 rounded-pill fs-6 fs-lg-5 d-flex justify-content-between fw-bold">
+              <span>立即探索魅力古都</span>
+              <span class="material-symbols-outlined align-bottom rounded-circle bg-white text-black">arrow_forward</span>
+            </button>
+            </div>
+            </div>
+
+            <div class="map-card bg-white p-5 rounded-5 overflow-hidden flex-shrink-0 me-5 d-lg-flex">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/map-4.png?raw=true" class="card-img-top mb-2 rounded-3 me-lg-9" alt="map-4">
+            <div class="card-body">
+            <span class="fs-5 fw-bold text-primary py-2 px-5 bg-primary-10 rounded-2 d-inline-block mb-2 me-2">大洋洲</span>
+            <span class="fs-5 fw-bold text-primary py-2 px-5 bg-primary-10 rounded-2 d-inline-block mb-2">澳洲雪梨</span>
+            <h4 class="fs-2 fs-lg-1 fw-bold text-black mb-2">城市與大自然的交會</h4>
+            <p class="text-neutral-80 fs-6 fs-lg-5 mb-7 mb-lg-11">清晨在海灘做瑜珈，午後漫步歌劇院，享受城市的節奏與野性的呼喚。</p>
+            <div class="mb-24 d-flex flex-column flex-md-row align-items-start">
+            <h5 class="fs-5 fw-bold text-primary p-2 bg-primary-10 rounded-2 d-inline-block mb-2 text-nowrap my-lg-1 mx-lg-4">ZOBAA 建議</h5>
+            <p class="fs-6 fs-lg-5 text-primary">別錯過傍晚在雪梨港看日落＋欣賞歌劇院夜燈 ✨</p>
+            </div>
+            <button type="button" class="btn btn-dark w-100 p-5 rounded-pill fs-6 fs-lg-5 d-flex justify-content-between fw-bold">
+              <span>立即探索魅力古都</span>
+              <span class="material-symbols-outlined align-bottom rounded-circle bg-white text-black">arrow_forward</span>
+            </button>
+            </div>
+            </div>
+
+            <div class="map-card bg-white p-5 rounded-5 overflow-hidden flex-shrink-0 d-lg-flex">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/map-5.png?raw=true" class="card-img-top mb-2 rounded-3 me-lg-9" alt="map-1">
+            <div class="card-body">
+            <span class="fs-5 fsfw-bold text-primary py-2 px-5 bg-primary-10 rounded-2 d-inline-block mb-2 me-2">非洲</span>
+            <span class="fs-5 fw-bold text-primary py-2 px-5 bg-primary-10 rounded-2 d-inline-block mb-2">埃及開羅</span>
+            <h4 class="fs-2 fs-lg-1 fw-bold text-black mb-2">穿越千年時光的沙漠冒險</h4>
+            <p class="text-neutral-80 fs-6 fs-lg-5 mb-7 mb-lg-11">乘著駱駝走過古老遺跡，抬頭仰望太陽神的光芒，在歷史與傳說之間迷失。</p>
+            <div class="mb-24 d-flex flex-column flex-md-row align-items-start">
+            <h5 class="fs-5 fw-bold text-primary p-2 bg-primary-10 rounded-2 d-inline-block mb-2 text-nowrap my-lg-1 mx-lg-4">ZOBAA 建議</h5>
+            <p class="fs-6 fs-lg-5 text-primary">建議早上 8 點前到吉薩金字塔，避開人潮與烈日 ☀️</p>
+            </div>
+            <button type="button" class="btn btn-dark w-100 p-5 rounded-pill fs-6 fs-lg-5 d-flex justify-content-between fw-bold">
+              <span>立即探索魅力古都</span>
+              <span class="material-symbols-outlined align-bottom rounded-circle bg-white text-black">arrow_forward</span>
+            </button>
+            </div>
+            </div>
+
+
+          </div>
+
+        
+        </div>
+
+
+        </div>
+
+        
+
+
+      </section>
+
+      <section class="diagonal-section-bottom">
+      </section>
+
+      <section class="bg-white">
+        <div class="container py-11 py-lg-13">
+        <div class="text-primary mb-11 mb-lg-12">
+        <!--手機版-->
+        <div class="d-block d-lg-none">
+        <h3 class="mb-2 fs-2 fw-bold">搜尋墨爾本嗎？</h3>
+        <h3 class="fs-2 fw-bold">來點行程參考！</h3>
+        </div>
+        <!--電腦版-->
+        <div class="d-none d-lg-block mb-7">
+        <h3 class="mb-2 display-2 fw-bold">搜尋墨爾本嗎？</h3>
+        <h3 class="mb-0 display-2 fw-bold">來點行程參考！</h3>
+        </div>
+        </div>
+
+    <div class="row flex-nowrap overflow-x-auto">
+
+    <div class="col-10 col-lg-3">
+      <div class="card border-0 position-relative overflow-hidden">
+      <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/journey-1.png?raw=true" class="mb-5 rounded-4 w-100" alt="journey-1">
+       <div class="favorite-icon-wrapper position-absolute top-0 end-0">
+       <span class="material-symbols-outlined text-white bg-dark bg-opacity-40 rounded m-5">favorite_border</span>
+      </div>
+      <h5 class="fw-bold text-black fs-5 mb-2">【獨家優惠】布萊頓彩色小屋＋森林蒸汽火車一日遊</h5>
+      <div>
+      <p class="fs-6 text-primary py-1 px-2 bg-primary-10 rounded-2 d-inline-block mb-2 text-nowrap me-2">即買即用</p>
+      <p class="fs-6 text-primary py-1 px-2 bg-primary-10 rounded-2 d-inline-block mb-2 text-nowrap me-2">5 天前可免費取消</p>
+      </div>
+      <ul class="list-unstyled d-flex pb-5 border-bottom border-neutral-40 mb-5">
+        <li><span class="material-symbols-outlined btn-group text-yellow align-bottom me-1">star_rate</span></li>
+        <li class="fs-6 text-neutral-80 me-1">4.2</li>
+        <li class="fs-6 text-neutral-60 pe-4 border-end border-neutral-40">(333)</li>
+        <li class="fs-6 text-neutral-80 ps-4">500+ 個已訂購</li>
+      </ul>
+      <p class="fw-bold fs-4 text-primary mb-0">NT$ 4,220</p>
+      <p class="mb-0 text-gray-808080 fs-6"><del>NT$ 5,220</del></p>
+    </div>
+    </div>
+
+     <div class="col-10 col-lg-3">
+      <div class="card border-0 position-relative overflow-hidden">
+      <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/journey-2.png?raw=true" class="mb-5 rounded-4 w-100" alt="journey-2">
+       <div class="favorite-icon-wrapper position-absolute top-0 end-0">
+       <span class="material-symbols-outlined text-white bg-dark bg-opacity-40 rounded m-5">favorite_border</span>
+      </div>
+      <h5 class="fw-bold text-black fs-5 mb-2">無尾熊動物園＋企鵝歸巢雙享之旅</h5>
+      <div>
+      <p class="fs-6 text-primary py-1 px-2 bg-primary-10 rounded-2 d-inline-block mb-2 text-nowrap me-2">即買即用</p>
+      <p class="fs-6 text-primary py-1 px-2 bg-primary-10 rounded-2 d-inline-block mb-2 text-nowrap me-2">7 天前可免費取消</p>
+      </div>
+      <ul class="list-unstyled d-flex pb-5 border-bottom border-neutral-40 mb-5">
+        <li><span class="material-symbols-outlined btn-group text-yellow align-bottom me-1">star_rate</span></li>
+        <li class="fs-6 text-neutral-80 me-1">4.2</li>
+        <li class="fs-6 text-neutral-60 pe-4 border-end border-neutral-40">(333)</li>
+        <li class="fs-6 text-neutral-80 ps-4">500+ 個已訂購</li>
+      </ul>
+      <p class="fw-bold fs-4 text-primary mb-0">NT$ 3,890</p>
+      <p class="mb-0 text-gray-808080 fs-6"><del>NT$ 4,920</del></p>
+    </div>
+    </div>
+
+     <div class="col-10 col-lg-3">
+      <div class="card border-0 position-relative overflow-hidden">
+      <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/journey-3.png?raw=true" class="mb-5 rounded-4 w-100" alt="journey-3">
+       <div class="favorite-icon-wrapper position-absolute top-0 end-0">
+       <span class="material-symbols-outlined text-white bg-dark bg-opacity-40 rounded m-5">favorite_border</span>
+      </div>
+      <h5 class="fw-bold text-black fs-5 mb-2">大洋路經典一日遊｜中文導覽！體驗澳洲最夢幻的海岸線</h5>
+      <div>
+      <p class="fs-6 text-primary py-1 px-2 bg-primary-10 rounded-2 d-inline-block mb-2 text-nowrap me-2">中文導覽</p>
+      <p class="fs-6 text-primary py-1 px-2 bg-primary-10 rounded-2 d-inline-block mb-2 text-nowrap me-2">5 天前可免費取消</p>
+      </div>
+      <ul class="list-unstyled d-flex pb-5 border-bottom border-neutral-40 mb-5">
+        <li><span class="material-symbols-outlined btn-group text-yellow align-bottom me-1">star_rate</span></li>
+        <li class="fs-6 text-neutral-80 me-1">4.2</li>
+        <li class="fs-6 text-neutral-60 pe-4 border-end border-neutral-40">(333)</li>
+        <li class="fs-6 text-neutral-80 ps-4">500+ 個已訂購</li>
+      </ul>
+      <p class="fw-bold fs-4 text-primary mb-0">NT$ 3,690</p>
+      <p class="mb-0 text-gray-808080 fs-6"><del>NT$ 4,500</del></p>
+    </div>
+    </div>
+
+     <div class="col-10 col-lg-3">
+      <div class="card border-0 position-relative overflow-hidden">
+      <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/journey-4.png?raw=true" class="mb-5 rounded-4 w-100" alt="journey-4">
+       <div class="favorite-icon-wrapper position-absolute top-0 end-0">
+       <span class="material-symbols-outlined text-white bg-dark bg-opacity-40 rounded m-5">favorite_border</span>
+      </div>
+      <h5 class="fw-bold text-black fs-5 mb-2">墨爾本市區導覽｜壁畫巷＋隱藏咖啡廳之旅，體驗本地咖啡文化、隱藏小巷拍照</h5>
+      <div>
+      <p class="fs-6 text-primary py-1 px-2 bg-primary-10 rounded-2 d-inline-block mb-2 text-nowrap me-2">專業導覽</p>
+      <p class="fs-6 text-primary py-1 px-2 bg-primary-10 rounded-2 d-inline-block mb-2 text-nowrap me-2">3 天前可免費取消</p>
+      </div>
+      <ul class="list-unstyled d-flex pb-5 border-bottom border-neutral-40 mb-5">
+        <li><span class="material-symbols-outlined btn-group text-yellow align-bottom me-1">star_rate</span></li>
+        <li class="fs-6 text-neutral-80 me-1">4.2</li>
+        <li class="fs-6 text-neutral-60 pe-4 border-end border-neutral-40">(333)</li>
+        <li class="fs-6 text-neutral-80 ps-4">500+ 個已訂購</li>
+      </ul>
+      <p class="fw-bold fs-4 text-primary mb-0">NT$ 1,280</p>
+      <p class="mb-0 text-gray-808080 fs-6"><del>NT$ 2,480</del></p>
+    </div>
+    </div>
+
+
+    </div>
+
+      </section>
+
+      <!--跑馬燈-->
+      <section>
+      <div class="marquee overflow-hidden position-relative">
+        <div class="marquee__inner d-flex text-nowrap">
+        <img class="me-2 marquee-img" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/59f6973c658c94689331eea2d93ef4088a0029ee/2025-week8/index/bg-title-1.svg" alt="bg-title-1">
+        <img class="me-2 marquee-img" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/59f6973c658c94689331eea2d93ef4088a0029ee/2025-week8/index/bg-title-2.svg" alt="bg-title-2">
+        <img class="me-2 marquee-img" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/59f6973c658c94689331eea2d93ef4088a0029ee/2025-week8/index/bg-title-3.svg" alt="bg-title-3">
+
+        <img class="me-2 marquee-img" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/59f6973c658c94689331eea2d93ef4088a0029ee/2025-week8/index/bg-title-1.svg" alt="bg-title-1">
+        <img class="me-2 marquee-img" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/59f6973c658c94689331eea2d93ef4088a0029ee/2025-week8/index/bg-title-2.svg" alt="bg-title-2">
+        <img class="me-2 marquee-img" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/59f6973c658c94689331eea2d93ef4088a0029ee/2025-week8/index/bg-title-3.svg" alt="bg-title-3">
+      </div>
+      </div>
+
+      </section>
+
+      <section class="bg-primary-40">
+      <div class="container py-11 py-lg-13">
+        <div class="col-12 mb-2 mb-lg-7">
+        <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/card.png?raw=true" class="card-img-top" alt="card">
+        </div>
+        
+        <!--card body-->
+        <div class="bg-primary-10 bg-opacity-50 rounded-5 p-7 p-lg-9 d-lg-flex">
+        
+        <div class="col-lg-6">
+        <div class="mb-7 flex-lg-column h-lg-100 justify-content-lg-between">
+          <h5 class="text-primary fw-bold fs-24px fs-lg-1 mb-5 mb-lg-7 text-nowrap">為什麼選擇 ZOBAA ?</h5>
+          <p class="text-neutral-80 fs-6 fs-lg-5">不只是帶你抵達目的地，更在每一次出發前，替你預想所有細節。<br /> ZOBΛA 希望你能放心探索世界，把記憶留給旅程本身。</p>
+          
+          <!--電腦的按鈕-->
+          <button type="button" class="btn btn-dark rounded-pill d-flex py-lg-6 px-lg-7 fw-bold d-none d-lg-block">
+          立即探索我們的精心旅程
+          <span class="material-symbols-outlined ms-4 text-black bg-light rounded-circle align-bottom">arrow_forward</span>
+          </button>
+        </div>
+        </div>
+
+      <div class="col-lg-6">
+      <div class="d-lg-flex w-lg-100 h-lg-100 align-items-lg-stretch">
+
+        <div class="flex-lg-fill mb-5 mb-lg-0 bg-white border-e9e9e9 rounded-3 p-7 me-lg-5 flex-fill w-lg-50 h-lg-100 flex-lg-column justify-content-lg-center align-items-lg-center">
+           <h5 class="text-primary fs-lg-1 fs-2 fw-bold mb-2 text-nowrap">8 年 +</h5>
+           <p class="text-primary-80 fs-5 fs-lg-7 fw-bold mb-0">旅遊企劃經驗</p>
+        </div>
+
+        <div class="flex-lg-fill mb-7 mb-lg-0 bg-white border-e9e9e9 rounded-3 p-7 me-lg-5 w-lg-50 h-lg-100 flex-lg-column justify-content-lg-center align-items-lg-center">
+           <h5 class="text-primary fs-lg-1 fs-2 fw-bold mb-2 text-nowrap">30,000 +</h5>
+           <p class="text-primary-80 fs-5 fs-lg-7 fw-bold mb-0">旅人五星好評</p>
+        </div>
+      </div>
+      </div>
+      </div>
+              
+              
+        <div class="col-12 d-lg-none">
+        <button type="button" class="btn bg-black text-white fs-6 rounded-pill rounded-6 py-215 px-7 fw-bold d-flex justify-content-between w-100 align-items-center">
+         立即探索我們的精心旅程<span class="material-symbols-outlined ms-4 p-1 text-black bg-light rounded-circle">arrow_forward </span>
+        </button>
+        </div>
+        
+        
+       </div>
+
+
+      </div>
+          
+          </div>
+       </div>
+
+        </div>
+        
+        
+
+      </section>
+
+
+
+
+
+     </main>
+
+    
+
+
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
