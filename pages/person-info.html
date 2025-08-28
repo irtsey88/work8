@@ -16,7 +16,7 @@
   <body>
     <%- include('./layout/header'); -%>
    <main>
-    <section>
+    <section class="bg-neutral-15 pb-11 pb-lg-13">
     <div class="container person-banner">
   <!-- 封面圖 -->
   <div class="position-relative">
@@ -43,7 +43,10 @@
     <h3 class="fs-4 fs-lg-24 text-primary fw-bold mb-1">Jessica Yen</h3>
     <p class="fs-6 fs-lg-5 text-neutral-80">jessica.yen@gmail.com</p>
    </div>
+   
     </div>
+
+
        
     <section>
     <div class="container bg-white p-8 shadow rounded-5 mb-lg-7 mb-5">
@@ -66,99 +69,88 @@
 
 
 
-      <div class="container">
-        <div class="bg-white py-lg-64 px-lg-9 py-9 px-5 shadow rounded-3">
-        <h3 class="fs-lg-2 fs-4 fw-bold mb-8">我的帳號</h3>
+    <div class="container px-0 rounded-3">
+    <div class=" bg-white py-lg-64 px-lg-9 py-9 px-5 shadow rounded-3" >
+          
+    <h3 class="fs-lg-1 fs-2 fw-bold mb-11">我的帳號</h3>
 
-          <ul class="nav mb-6" role="tablist">
-            <li class="nav-item me-7" role="presentation">
-                  <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#pills-info" type="button" 
-                  role="tab" aria-controls="pills-home" aria-selected="true">
-                    個人資訊
-                  </button>
-                </li>
+    <ul class="nav mb-6 border-1 border-bottom border-$neutral-15" role="tablist">
+    <li class="nav-item me-9" role="presentation">
+    <button class="nav-link active text-primary px-0" data-bs-toggle="pill" data-bs-target="#pills-info" type="button">
+    個人資訊</button>
+    </li>
+    <li class="nav-item" role="presentation">
+       
+    <button class="nav-link text-primary px-0" data-bs-toggle="pill" data-bs-target="#pills-user" type="button">
+    常用旅客</button>
+    </li>
+    </ul>
 
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-user" type="button"
-                    role="tab" aria-controls="pills-user" aria-selected="false">
-                    常用旅客
-                  </button>
-                </li>
 
-              </ul>
-              <div class="tab-content" id="pills-tabContent">
-                <!-- 個人資料 -->
-                <div class="tab-pane fade show active" id="pills-info">
-                  <!-- 資料 -->
-                  <div class="mb-8">
+   <div class="tab-content" id="pills-tabContent">
+    <!-- 個人資料 -->
+    <div class="tab-pane fade show active" id="pills-info">
+    <!-- 資料 -->
+      <div class="mb-11">
 
-                    <div class="mb-6">
-                      <h6 class="fs-lg-8 fs-9 text-neutral-80 fw-normal mb-3">姓名</h6>
-                      <p class="fs-lg-7 fs-8 text-black fw-bold">Jessica Yen</p>
-                    </div>
+    <div class="mb-7">
+    <h6 class="fs-lg-5 fs-6 text-neutral-80 mb-2">姓名</h6>
+    <p class="fs-lg-4 fs-5 text-black fw-bold">Jessica Yen</p>
+    </div>
 
-                    <div class="mb-6">
-                      <h6 class="fs-lg-8 fs-9 text-neutral-80 fw-normal mb-3">電子信箱</h6>
-                      <p class="fs-lg-7 fs-8 text-black fw-bold"> jessica.yen@gmail.com</p>
-                    </div>
+    <div class="mb-7">
+    <h6 class="fs-lg-5 fs-6 text-neutral-80 mb-2">電子信箱</h6>
+    <p class="fs-lg-4 fs-5 text-black fw-bold"> jessica.yen@gmail.com</p>
+    </div>
 
-                    <div class="mb-6">
-                      <h6 class="fs-lg-8 fs-9 text-neutral-80 fw-normal mb-3">密碼</h6>
-                      <p class="fs-lg-7 fs-8 text-black fw-bold">************</p>
-                    </div>
+    <div class="mb-7">
+    <h6 class="fs-lg-5 fs-6 text-neutral-80 mb-2">密碼</h6>
+    <p class="fs-lg-4 fs-5 text-black fw-bold">************</p>
+    </div>
 
-                    <div class="mb-6">
-                      <h6 class="fs-lg-8 fs-9 text-neutral-80 fw-normal mb-3"> 聯絡電話</h6>
-                      <p class="fs-lg-7 fs-8 text-black fw-bold">+886 912-345-678</p>
-                    </div>
+    <div class="mb-7">
+    <h6 class="fs-lg-5 fs-6 text-neutral-80 mb-2"> 聯絡電話</h6>
+    <p class="fs-lg-4 fs-5 text-black fw-bold">+886 912-345-678</p>
+   </div>
 
-                    <div class="mb-6">
-                      <h6 class="fs-lg-8 fs-9 text-neutral-80 fw-normal mb-3">地址</h6>
-                      <p class="fs-lg-7 fs-8 text-black fw-bold">台北市士林區幸福路193號5樓之1</p>
-                    </div>
+    <div class="mb-7">
+    <h6 class="fs-lg-5 fs-6 text-neutral-80 mb-2">地址</h6>      
+    <p class="fs-lg-4 fs-5 text-black fw-bold">台北市士林區幸福路193號5樓之1</p>
+    </div>
 
-                    <div class="mb-6">
-                      <h6 class="fs-lg-8 fs-9 text-neutral-80 fw-normal mb-3">生日
-                      </h6>
-                      <p class="fs-lg-7 fs-8 text-black fw-bold">1995-09-20</p>
-                    </div>
-                  </div>
+    <div>
+    <h6 class="fs-lg-5 fs-6 text-neutral-80 mb-2">生日</h6>
+    <p class="fs-lg-4 fs-5 text-black fw-bold">1995-09-20</p>
+    </div>
 
-                  <!-- 手機版編輯按鈕 -->
-                  <div class="d-flex d-lg-none">
-                    <button
-                      type="button"
-                      class="btn btn-outline-primary fs-8 fw-semibold px-lg-7 w-100"
-                    >
-                      <span class="material-symbols-outlined align-bottom">
-                        edit </span
-                      >編輯資訊
-                    </button>
-                  </div>
-                  <!-- 電腦版編輯按鈕 -->
-                  <div class="d-none d-lg-flex justify-content-lg-end">
-                    <button
-                      type="button"
-                      class="btn btn-outline-primary fs-8 fw-semibold px-lg-7"
-                    >
-                      <span class="material-symbols-outlined align-bottom">
-                        edit </span
-                      >編輯資訊
-                    </button>
-                  </div>
-                </div>
-                <!-- 常用旅客 -->
-                <div class="tab-pane fade" id="pills-user">
+      </div> 
+
+    <!-- 手機版編輯按鈕 -->
+      <div class="d-flex d-lg-none">
+    <button type="button" class="btn btn-outline-primary fs-5 fw-semibold rounded-12 py-5 w-100 bg-white">
+    <span class="material-symbols-outlined align-bottom">edit</span>編輯資訊
+    </button>
+      </div>
+                 
+    <!-- 電腦版編輯按鈕 -->
+     <div class="d-none d-lg-flex justify-content-lg-end">
+      <button type="button" class="btn btn-outline-primary fs-lg-5 fw-semibold px-lg-9 py-lg-5 rounded-12">
+       <span class="material-symbols-outlined align-bottom"> edit </span>編輯資訊</button>
+     
+  </div>
+  </div>
+    <!-- 常用旅客 -->
+    <div class="tab-pane fade" id="pills-user">
                   
-                  <!-- 電腦版 -->
-                  <div class="d-none d-lg-block">
-                    <div class="mb-8">
-                      <div class="bg-light border p-lg-6 rounded-3 mb-3">
-                        <div class="d-flex align-items-center">
-                          <img
-                            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/user/avatar-1.png?raw=true"
-                            alt="user1"
-                            style="width: 40px; height: 40px"
+      <!-- 電腦版 -->
+      <div class="d-none d-lg-block">
+      <div class="mb-8">
+      <div class="bg-light border p-lg-6 rounded-3 mb-3">
+            <div class="d-flex align-items-center">
+        <img
+   src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/user/avatar-1.png?raw=true"
+   alt="user1"
+   style="width: 40px; height: 40px"
                             class="me-2 img-fluid object-fit-cover"
                           />
                           <p class="fs-lg-7 fw-bold">Jessica Yen</p>
@@ -229,6 +221,7 @@
                       </button>
                     </div>
                   </div>
+
                   <!-- 手機版 -->
                   <div class="d-lg-none">
                     <div class="mb-8">
@@ -328,9 +321,12 @@
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
+            
+        
         </div>
+      </div>
+
+     
       </section>
     </main>
 
